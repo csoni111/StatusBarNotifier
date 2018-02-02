@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/proxy_status_bar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="co.chiragm.statusbarnotifier.SampleActivity"
-    tools:ignore="HardcodedText">
+    android:layout_height="24dp"
+    android:background="@android:color/black"
+    tools:visibility="visible">
 
-    <Button
-        android:id="@+id/click_me"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/sbn_text"
+        android:textColor="@android:color/white"
         android:layout_centerInParent="true"
-        android:text="Click Me" />
-
+        tools:text="Hello" />
 </RelativeLayout>
