@@ -4,15 +4,14 @@
     android:id="@+id/proxy_status_bar"
     android:layout_width="match_parent"
     android:layout_height="24dp"
-    android:background="@android:color/black"
-    tools:visibility="visible">
+    android:background="@android:color/black">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
+        android:textSize="12sp"
         android:id="@+id/sbn_text"
         android:textColor="@android:color/white"
         android:layout_centerInParent="true"
-        tools:text="Hello" />
+        tools:text="Sample Notification" />
 </RelativeLayout>
