@@ -19,5 +19,5 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.0.2'
-    compile project(path: ':library')
+    implementation project(path: ':library')
 }
