@@ -27,7 +27,7 @@ repositories {
 Add this dependency to your `build.gradle` file:
 
 ```
-compile 'co.chiragm.sbn:library:0.0.1'
+implementation 'co.chiragm.sbn:library:0.0.1'
 ```
 
 ## Usage Instructions
